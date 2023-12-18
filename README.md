@@ -32,7 +32,12 @@ Kotlin adalah bahasa pemrograman yang digunakan dalam pengembangan aplikasi Andr
 - Ia memiliki interoperabilitas yang baik dengan Java, memungkinkan penggunaan kode Kotlin dan Java dalam proyek yang sama.
 - Kotlin menyediakan fitur-fitur modern seperti null safety, extension functions, dan banyak lagi.
 
-Dengan menggunakan Kotlin, pengembang dapat mempercepat pengembangan, meningkatkan keamanan, dan membuat kode yang lebih mudah dipahami.
+Dengan menggunakan Kotlin, pengembang dapat mempercepat pengembangan, meningkatkan keamanan, dan membuat kode yang lebih mudah dipahami.\
+
+## Dokumentasi UI/UX dengan Figma
+
+Kami juga telah menyediakan dokumentasi desain UI/UX Aplikasi Presensi Mandiri menggunakan Figma. Anda dapat melihat desain antarmuka pengguna pada [projek Figma](https://www.figma.com/file/HUz3aRvBrwAT7979DL0KSx/Untitled?type=design&node-id=0%3A1&mode=design&t=RlbGQzpkM9NVNfUz-1).
+- <b>Unduh Figma </b> [situs resmi](https://www.figma.com/downloads/) 
 
 ## Kontribusi
 
