@@ -23,10 +23,6 @@ Android Studio adalah lingkungan pengembangan terintegrasi (IDE) resmi dari Goog
 
 Kami menyambut kontribusi dari berbagai pihak. Jika Anda ingin berkontribusi, silakan buka *pull request*.
 
-## Lisensi
-
-Proyek ini dilisensikan di bawah [nama lisensi]. Lihat file `LICENSE` untuk informasi lebih lanjut.
-
 ## Referensi
 
 - [Situs Resmi Android Studio](https://developer.android.com/studio)
@@ -34,4 +30,4 @@ Proyek ini dilisensikan di bawah [nama lisensi]. Lihat file `LICENSE` untuk info
 
 ---
 
-Pastikan untuk mengganti placeholder dan informasi sesuai kebutuhan proyek Anda.
+
