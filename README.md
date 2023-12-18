@@ -45,10 +45,6 @@ Dengan menggunakan Kotlin, pengembang dapat mempercepat pengembangan, meningkatk
 Kami juga telah menyediakan dokumentasi desain UI/UX Aplikasi Presensi Mandiri menggunakan Figma. Anda dapat melihat desain antarmuka pengguna pada [projek Figma](https://www.figma.com/file/HUz3aRvBrwAT7979DL0KSx/Untitled?type=design&node-id=0%3A1&mode=design&t=RlbGQzpkM9NVNfUz-1).
 - <b>Unduh Figma </b> [situs resmi](https://www.figma.com/downloads/) 
 
-## Kontribusi
-
-Kami menyambut kontribusi dari berbagai pihak. Jika Anda ingin berkontribusi, silakan buka *pull request*.
-
 ## Referensi
 
 - [Situs Resmi Android Studio](https://developer.android.com/studio)
