@@ -1,5 +1,5 @@
 
-[![Android Studio](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/1200px-Android_Studio_icon_%282023%29.svg.png)](https://developer.android.com/studio)
+[![Android Studio](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/200px-Android_Studio_icon_%282023%29.svg.png)](https://developer.android.com/studio)
 
 
 
