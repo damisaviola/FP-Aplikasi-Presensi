@@ -1,9 +1,7 @@
 
 [![Android Studio](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/200px-Android_Studio_icon_%282023%29.svg.png)](https://developer.android.com/studio)
 
-[![Contoh Gambar Kecil](https://repository-images.githubusercontent.com/389429650/7105a193-ad96-45cc-a3be-87cdfda75ebe?s=200)](https://repository-images.githubusercontent.com/389429650/7105a193-ad96)
-
-
+![Contoh Gambar](https://mathiasfrohlich.gallerycdn.vsassets.io/extensions/mathiasfrohlich/kotlin/1.7.1/1581441165235/Microsoft.VisualStudio.Services.Icons.Default)
 
 
 # Aplikasi Presensi Mandiri
