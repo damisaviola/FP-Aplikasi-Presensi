@@ -1,3 +1,7 @@
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/1200px-Android_Studio_icon_%282023%29.svg.png
+
+
 # Aplikasi Presensi Mandiri
 
 Aplikasi Presensi Mandiri adalah sebuah aplikasi yang dikembangkan untuk membantu pengguna melakukan presensi dengan menggunakan foto selfie, mencatat lokasi, dan informasi lainnya. Aplikasi ini dibangun dengan menggunakan Android Studio dan bahasa pemrograman Kotlin.
@@ -47,3 +51,4 @@ Kami menyambut kontribusi dari berbagai pihak. Jika Anda ingin berkontribusi, si
 
 - [Situs Resmi Android Studio](https://developer.android.com/studio)
 - [Dokumentasi Android Developer](https://developer.android.com/docs)
+- [situs resmi Figma](https://www.figma.com/downloads/) 
