@@ -1,3 +1,6 @@
+Aplikasi Diatas Dibangun dengan menggunakna Android Studio dan Bahasa Kotlin
+
+
 # Android Studio
 
 Android Studio adalah lingkungan pengembangan terintegrasi (IDE) resmi dari Google untuk membuat aplikasi Android.
@@ -21,7 +24,7 @@ Android Studio adalah lingkungan pengembangan terintegrasi (IDE) resmi dari Goog
 
 ## Kontribusi
 
-Kami menyambut kontribusi dari berbagai pihak. Jika Anda ingin berkontribusi, silakan buka *pull request*.
+
 
 ## Referensi
 
