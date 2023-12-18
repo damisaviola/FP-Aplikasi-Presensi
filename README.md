@@ -1,6 +1,7 @@
 
 [![Android Studio](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Android_Studio_icon_%282023%29.svg/200px-Android_Studio_icon_%282023%29.svg.png)](https://developer.android.com/studio)
 
+[![Contoh Gambar](https://developer.android.com/static/codelabs/basic-android-kotlin-compose-first-program/img/3bbebda874e6003b.png?hl=id)](https://developer.android.com/static/codelabs/basic-android-kotlin-compose-first-program/img/3bbebda874e6003b.png?hl=id)
 
 
 # Aplikasi Presensi Mandiri
