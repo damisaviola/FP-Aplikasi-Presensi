@@ -1,19 +1,24 @@
 package com.example.login.View.Registrasi
 
 import DatabaseHelper
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.login.Model.Model_registrasi
 import com.example.login.R
+import com.example.login.View.Login.LoginActivity
 
 class RegisterActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+
+        btnLoginListener()
 
         val etName = findViewById<EditText>(R.id.edt_fullname)
         val etEmail = findViewById<EditText>(R.id.edt_email)
@@ -50,6 +55,13 @@ class RegisterActivity : AppCompatActivity() {
             }
         } else {
             Toast.makeText(applicationContext, "Fields cannot be blank", Toast.LENGTH_LONG).show()
+        }
+    }
+
+    private fun btnLoginListener() {
+        val txt_login = findViewById<TextView>(R.id.txt_login)
+        txt_login.setOnClickListener {
+            startActivity(Intent(this@RegisterActivity, LoginActivity::class.java))
         }
     }
 }

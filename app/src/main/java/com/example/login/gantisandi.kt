@@ -5,6 +5,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.login.View.Login.LoginActivity
@@ -20,6 +22,11 @@ class gantisandi: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gantisandi)
+
+
+
+        btnbackListener()
+        btnLogin2Listener()
 
         dbHelper = DatabaseHelper(this)
 
@@ -51,4 +58,20 @@ class gantisandi: AppCompatActivity() {
             }
         }
     }
+
+    private fun btnbackListener() {
+        val icback = findViewById<ImageView>(R.id.ic_back)
+        icback.setOnClickListener {
+            startActivity(Intent(this@gantisandi, LoginActivity::class.java))
+        }
+    }
+
+    private fun btnLogin2Listener() {
+        val login2 = findViewById<TextView>(R.id.login2)
+        login2.setOnClickListener {
+            startActivity(Intent(this@gantisandi, LoginActivity::class.java))
+        }
+    }
+
+
 }

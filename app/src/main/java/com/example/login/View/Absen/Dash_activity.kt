@@ -57,8 +57,9 @@ class Dash_activity : AppCompatActivity() {
         val namaInput = binding.edtNama.text.toString()
         val tanggalInput = binding.edtPassword2.text.toString()
         val ket = binding.edtKeterangan.text.toString()
+        val lokasi = binding.edtLokasi.text.toString()
 
         // Simpan data ke dalam database lokal
-        dbHelper.insertPresensiData(namaInput, tanggalInput, ket)
+        dbHelper.insertPresensiData(namaInput, tanggalInput, ket, lokasi)
     }
 }

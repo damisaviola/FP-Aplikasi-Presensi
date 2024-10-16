@@ -20,11 +20,12 @@ class itemAdapter(
         private val textViewName: TextView = itemView.findViewById(R.id.tv_nama)
         private val textViewTime: TextView = itemView.findViewById(R.id.tv_waktu_absen)
         private val textViewKet: TextView = itemView.findViewById(R.id.tv_keterangan)
-
+        private val textViewLok: TextView = itemView.findViewById(R.id.tv_lokasi)
         fun bind(presensi: Model_presensi) {
             textViewName.text = presensi.nama
             textViewTime.text = presensi.waktuAbsen
             textViewKet.text = presensi.keterangan
+            textViewLok.text = presensi.lokasi
 
             itemView.setOnClickListener {
                 itemClickListener?.invoke(presensi)

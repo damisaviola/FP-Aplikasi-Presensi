@@ -17,6 +17,7 @@
         />
 
     <ImageView
+        android:id="@+id/ic_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_back"
@@ -143,7 +144,7 @@
             android:fontFamily="@font/poppinssemibold"
             android:textSize="12sp"
             android:textColor="@color/secondary"
-            android:id="@+id/txt_register"
+            android:id="@+id/login2"
             />
 
 

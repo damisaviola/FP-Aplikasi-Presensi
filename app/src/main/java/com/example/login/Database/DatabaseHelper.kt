@@ -27,7 +27,7 @@ class DatabaseHelper(context: Context) :
 
         private const val TABLE_PRESENSI = "presensi"
         private const val KEY_PRESENSI_ID = "id"
-        private const val KEY_PRESENSI_USER_name = "user_name" // Ganti dengan _ sebagai pemisah antar kata
+        private const val KEY_PRESENSI_USER_name = "user_name"
         private const val KEY_PRESENSI_TIME = "presensi_time"
         private const val KEY_PRESENSI_LOCATION = "presensi_lokasi"
         private const val KEY_PRESENSI_NOTE = "presensi_keterangan"
@@ -77,7 +77,7 @@ class DatabaseHelper(context: Context) :
 
         val userNames = LinkedHashSet<String>()
 
-        // Ambil nama pengguna dari database
+
         val selectQuery = "SELECT $KEY_NAME FROM $TABLE_CONTACTS LIMIT 1"
         val db = this.readableDatabase
         val cursor = db.rawQuery(selectQuery, null)
@@ -153,12 +153,13 @@ class DatabaseHelper(context: Context) :
 
 
 
-    fun insertPresensiData(nama: String, waktu: String, keterangan: String): Long {
+    fun insertPresensiData(nama: String, waktu: String, keterangan: String, lokasi: String): Long {
         val db = this.writableDatabase
         val values = ContentValues().apply {
             put(KEY_PRESENSI_USER_name, nama)
             put(KEY_PRESENSI_TIME, waktu)
             put(KEY_PRESENSI_NOTE, keterangan)
+            put(KEY_PRESENSI_LOCATION, lokasi)
 
         }
 
@@ -238,7 +239,7 @@ class DatabaseHelper(context: Context) :
                 if (storedPasswordIndex != -1) {
                     val storedPassword = cursor.getString(storedPasswordIndex)
 
-                    // Jika password lama sesuai, lakukan pengubahan password
+
                     if (storedPassword == oldPassword) {
                         val contentValues = ContentValues().apply {
                             put(KEY_PASSWORD, newPassword)
@@ -254,7 +255,7 @@ class DatabaseHelper(context: Context) :
                         isPasswordChanged = updated > 0
                     }
                 } else {
-                    // Kolom KEY_PASSWORD tidak ditemukan
+                    
                     Log.e("changePassword", "Column $KEY_PASSWORD not found")
                 }
             }
@@ -262,7 +263,7 @@ class DatabaseHelper(context: Context) :
 
         return isPasswordChanged
     }
-// Di dalam kelas DatabaseHelper
+
 
     fun insertIzin(nama: String, waktu: String, keterangan: String): Long {
         val db = this.writableDatabase
@@ -273,7 +274,7 @@ class DatabaseHelper(context: Context) :
         }
 
         val success = db.insert(TABLE_IZIN, null, values)
-        // Hindari menutup database di sini, tunggu hingga proses operasi selesai
+
         return success
     }
 

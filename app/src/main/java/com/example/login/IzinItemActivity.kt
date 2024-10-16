@@ -23,14 +23,14 @@ class IzinItemActivity : AppCompatActivity(), izinAdapter.OnItemClickListener {
         recyclerView = findViewById(R.id.rv_itemdata)
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        // Mengisi izinList dengan data perizinan dari DatabaseHelper
+        
         izinList = getDataIzin()
 
-        adapter = izinAdapter(this, izinList, this) // Menggunakan 'this' sebagai Context
+        adapter = izinAdapter(this, izinList, this) 
         recyclerView.adapter = adapter
 }
 
-        // Fungsi untuk mendapatkan data perizinan dari DatabaseHelper
+   
     private fun getDataIzin(): MutableList<Model_izin> {
         return DatabaseHelper(this).showIzin()
     }
@@ -64,11 +64,9 @@ class IzinItemActivity : AppCompatActivity(), izinAdapter.OnItemClickListener {
         val isUpdated = dbHelper.updateIzin(updatedItem)
 
         if (isUpdated) {
-            // Tampilkan pesan bahwa data berhasil diperbarui
-            // Misalnya: Toast.makeText(this, "Item updated successfully", Toast.LENGTH_SHORT).show()
+           
         } else {
-            // Tampilkan pesan bahwa gagal memperbarui data
-            // Misalnya: Toast.makeText(this, "Failed to update item", Toast.LENGTH_SHORT).show()
+           
         }
     }
 }

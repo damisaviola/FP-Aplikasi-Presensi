@@ -29,6 +29,14 @@
             android:textSize="16sp"
             tools:text="Keterangan" />
 
+        <TextView
+            android:id="@+id/tv_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:text="lokasi" />
+
         <!-- Horizontal divider -->
         <View
             android:layout_width="match_parent"

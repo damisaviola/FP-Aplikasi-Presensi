@@ -15,6 +15,7 @@ import izinAdapter
 
 class HistoryIzinActivity : AppCompatActivity(), izinAdapter.OnItemClickListener {
 
+
     private lateinit var adapter: izinAdapter
     private lateinit var presensiList: MutableList<Model_izin>
 
@@ -74,7 +75,7 @@ class HistoryIzinActivity : AppCompatActivity(), izinAdapter.OnItemClickListener
 
         if (isUpdated) {
             Toast.makeText(this, "Item updated successfully", Toast.LENGTH_SHORT).show()
-            // Update tampilan di RecyclerView setelah pembaruan item
+
             presensiList.clear()
             presensiList.addAll(dbHelper.showIzin())
             adapter.notifyDataSetChanged()

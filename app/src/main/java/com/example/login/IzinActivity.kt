@@ -47,7 +47,7 @@ class IzinActivity : AppCompatActivity() {
             if (success != -1L) {
                 Toast.makeText(this, "Data izin berhasil disimpan", Toast.LENGTH_SHORT).show()
 
-                // Navigasi ke HistoryIzinActivity setelah izin berhasil disimpan
+               
                 val intent = Intent(this, HistoryIzinActivity::class.java)
                 startActivity(intent)
 
